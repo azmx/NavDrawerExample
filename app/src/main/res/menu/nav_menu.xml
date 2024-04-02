@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:icon="@android:drawable/ic_menu_day"
+        android:title="Makanan khas" />
+    <item
+        android:id="@+id/menu_item2"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Minuman Khas" />
+    <item
+        android:id="@+id/menu_item3"
+        android:icon="@android:drawable/ic_media_ff"
+        android:title="Makanan Favorite"/>
+    <!-- Add more items as needed -->
+</menu>
