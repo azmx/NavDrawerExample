@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.content_frame, new MinumanKhas())
                             .commit();
-                    getSupportActionBar().setTitle("Makanan Khas");
+                    getSupportActionBar().setTitle("Minuman khas");
                 }else {getSupportFragmentManager().beginTransaction()
                         .replace(R.id.content_frame, new MakananFavorite())
                         .commit();
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.content_frame, new MakananKhas())
                 .commit();
 
-        getSupportActionBar().setTitle("Home Page");
+        getSupportActionBar().setTitle("Makanan Khas");
     }
 
 }
