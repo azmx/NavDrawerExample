@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.example.navdrawerexample.fragments.MakananFavorite;
 import com.example.navdrawerexample.fragments.MakananKhas;
 import com.example.navdrawerexample.fragments.MinumanKhas;
 import com.google.android.material.navigation.NavigationView;
@@ -43,12 +44,15 @@ public class MainActivity extends AppCompatActivity {
 
                 if (itemId == R.id.menu_item1) {
                     showHomePage();
-                } else {
+                } else if(itemId == R.id.menu_item2){
                     getSupportFragmentManager().beginTransaction()
                             .replace(R.id.content_frame, new MinumanKhas())
                             .commit();
                     getSupportActionBar().setTitle("Makanan Khas");
-                }
+                }else {getSupportFragmentManager().beginTransaction()
+                        .replace(R.id.content_frame, new MakananFavorite())
+                        .commit();
+                    getSupportActionBar().setTitle("Makanan Fav");}
 
                 drawerLayout.closeDrawers();
                 return true;

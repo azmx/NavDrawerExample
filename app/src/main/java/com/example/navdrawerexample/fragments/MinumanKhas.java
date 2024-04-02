@@ -42,31 +42,31 @@ public class MinumanKhas extends Fragment implements ListAdapter.ItemClickListen
 
         model wedang = new model();
         wedang.setName("Wedang Uwuh");
-        wedang.setDesc("");
+        wedang.setDesc("Campuran berbagai rempah herbal, itulah asal nama\"Uwuh\" ");
         wedang.setImage(R.drawable.wedang_uwuh);
         listdataMinum.add(wedang);
 
         model bajigur = new model();
         bajigur.setName("Bajigur");
-        bajigur.setDesc("");
+        bajigur.setDesc("Santan, Gula Jawa dan jahe yang memberikan kehangatan");
         bajigur.setImage(R.drawable.bajigur);
         listdataMinum.add(bajigur);
 
         model ronde = new model();
         ronde.setName("Ronde");
-        ronde.setDesc("");
+        ronde.setDesc("Kuah jahe yang berisi gelondong yang didalam nya ada kacang nya");
         ronde.setImage(R.drawable.ronde);
         listdataMinum.add(ronde);
 
         model kopi = new model();
         kopi.setName("Kopi Josss");
-        kopi.setDesc("");
+        kopi.setDesc("Kopi yang di sajikan dengan arang yang menyala");
         kopi.setImage(R.drawable.kopi);
         listdataMinum.add(kopi);
 
         model rujak = new model();
         rujak.setName("Rujak Es Krim");
-        rujak.setDesc("");
+        rujak.setDesc("Rujak yang di beri toping es krim menambah sensasi.");
         rujak.setImage(R.drawable.rujak);
         listdataMinum.add(rujak);
 
