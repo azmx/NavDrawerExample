@@ -2,8 +2,8 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="160dp"
-    android:background="#545454">
+    android:layout_height="180dp"
+    android:background="@drawable/qq">
 
     <!-- Your profile picture or icon -->
 
@@ -16,16 +16,26 @@
         android:layout_marginTop="8dp"
         android:src="@drawable/profile" />
 
-    <TextView
-        android:id="@+id/textViewUsername"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/montserrat_semibold"
-        android:text="Muh Azzam"
-        android:textColor="@android:color/white"
-        android:textSize="18sp"
-        android:layout_below="@id/imageViewProfile"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="8dp"
-        />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/imageViewProfile"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/black"
+        android:background="@drawable/layout_background">
+
+        <TextView
+            android:id="@+id/textViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Muh Azzam"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
 </RelativeLayout>
