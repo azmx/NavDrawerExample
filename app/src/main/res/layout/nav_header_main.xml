@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:background="#FA7070">
+    android:background="#545454">
 
     <!-- Your profile picture or icon -->
 

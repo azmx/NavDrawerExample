@@ -45,43 +45,43 @@ public class MakananKhas extends Fragment implements ListAdapter.ItemClickListen
 
         model gudeg = new model();
         gudeg.setName("Gudeg");
-        gudeg.setDesc("Gudeg adalah hidangan khas Daerah Istimewa Yogyakarta yang terbuat dari nangka muda");
+        gudeg.setDesc("Gudeg terbuat dari nangka muda");
         gudeg.setImage(R.drawable.gudeg);
         listdatamakan.add(gudeg);
 
         model bakpia = new model();
         bakpia.setName("Bakpia");
-        bakpia.setDesc(" Bakpia pathok adalah kue berbentuk bulat pipih, terbuat dari campuran kacang hijau yang dibungkus dengan tepung, lalu dipanggang");
+        bakpia.setDesc("Bakpia pathok kue berbentuk bulat pipih,");
         bakpia.setImage(R.drawable.bakpia);
         listdatamakan.add(bakpia);
 
         model kipo = new model();
         kipo.setName("Kipo");
-        kipo.setDesc("Kue kipo adalah kue berwarna hijau yang berbahan dasar tepung beras berisi parutan kelapa yang manis ");
+        kipo.setDesc("Kue kipo adalah kue berwarna hijau");
         kipo.setImage(R.drawable.kipo);
         listdatamakan.add(kipo);
 
         model mie = new model();
         mie.setName("Mie Lethek");
-        mie.setDesc("Olahan Mie dari Bantul DIY yang terkenal karena pengolahan nya yang masih tradisional yaitu dengan menggunakan bantuan sapi ");
+        mie.setDesc("Olahan Mie yang pengolahan nya yang masih tradisional dengan menggunakan bantuan sapi ");
         mie.setImage(R.drawable.mie);
         listdatamakan.add(mie);
 
         model brongkos = new model();
         brongkos.setName("Brongkos");
-        brongkos.setDesc(" Brongkos adalah sejenis makanan daging dan kacang berkuah bumbu keluak");
+        brongkos.setDesc("Brongkos adalah sejenis makanan daging dan kacang berkuah bumbu keluak");
         brongkos.setImage(R.drawable.brongkos);
         listdatamakan.add(brongkos);
 
         model tiwul = new model();
         tiwul.setName("Tiwul");
-        tiwul.setDesc("Thiwul atau bisa disebut juga tiwul, adalah penganan yang dibuat dari tepung gaplek, diberi gula sedikit, kemudian dikukus, dapat dimakan bersama kelapa parut yang telah diberi garam sedikit");
+        tiwul.setDesc("Thiwul , dapat dimakan bersama kelapa parut yang telah diberi garam sedikit");
         tiwul.setImage(R.drawable.tiwul);
         listdatamakan.add(tiwul);
 
         model gatot = new model();
         gatot.setName("Gatot");
-        gatot.setDesc("Gatot adalah penganan kukus, dibuat dari gaplek yang disayat kecil-kecil memanjang kemudian direbus dan dicampur dengan gula, dimakan dengan parutan kelapa.");
+        gatot.setDesc("Gatot adalah penganan kukus, dimakan dengan parutan kelapa.");
         gatot.setImage(R.drawable.gatot);
         listdatamakan.add(gatot);
 
